@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body .main {
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+body .main .panel {
+  margin-top: 4.3rem;
+  height: 30rem;
+  width: 50rem;
+  background: #d7e3fc;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 8px 8px -4px lightblue;
+          box-shadow: 0 8px 8px -4px lightblue;
+}
+/*# sourceMappingURL=Cities.css.map */

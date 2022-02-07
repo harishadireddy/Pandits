@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./scss/Login.css" />
+  </head>
+  <body>
+    <div class="poster">
+      <img src="./Images/Logo1.png" alt="" srcset="" />
+      <!-- <h1>This is the poster</h1> -->
+      <form class="form" action="Apanel.html">
+        <div class="form__item">
+          <label for="username" class="form__label">Username</label>
+          <input
+            required
+            type="text"
+            class="form__input form__input--error"
+            name="username"
+            id="username"
+            placeholder="Enter Username"
+          />
+          <span class="form__error">Error Message</span>
+          <label for="password" class="form__label">Password</label>
+          <input
+            required
+            type="text"
+            class="form__input form__input--error"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+          <span class="form__error">Error Message</span>
+        </div>
+        <!-- <a href="./Apanel.html">click</a> -->
+        <button class="form__btn" type="submit">LOGIN</button>
+      </form>
+    </div>
+    <script src="./JS/admin.js"></script>
+  </body>
+</html>
