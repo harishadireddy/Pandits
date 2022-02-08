@@ -14,7 +14,62 @@
 
         <div class="main">
             <h1> Cities page</h1>
-            <div class="panel"></div>
+            <a href="AddPandit.php"><button class="new">New Entry
+                    <img src="./Images/aone.png" alt="" srcset="">
+                </button></a>
+
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>S.NO</th>
+                        <th>City Name</th>
+                        <th>State Name</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Vizag</td>
+                        <td>8096495504</td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Vijayanagaram</td>
+                        <td>8096495504</td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td>8096495504</td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HarishA</td>
+                        <td>8096495504</td>
+
+
+
+
+                    </tr>
+
+
+
+
+                    <!-- and so on... -->
+                </tbody>
+            </table>
+            <!-- <div class="panel"></div> -->
         </div>
     </body>
 
