@@ -10,23 +10,103 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    // padding: 20px;
     position: relative;
     .panel {
       margin-top: 9rem;
-      height: 30rem;
-      width: 50rem;
+      height: 51rem;
+      width: 55rem;
       background: #d7e3fc;
       border-radius: 14px;
       // border: 2px solid #f8edeb;
       box-shadow: 0 8px 8px -4px lightblue;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        .drop {
+          display: flex;
+          padding: 2rem;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 13px;
+          select {
+            border: none;
+            outline: none;
+            border: 2px solid white;
+            padding: 5px;
+            width: 14rem;
+            font-size: 1rem;
+            background-color: white;
+            border-radius: 4px;
+          }
+        }
+        .details {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr;
+          padding: 2rem;
+          // grid-gap: 2rem;
+          grid-row-gap: 1.5rem;
+          grid-column-gap: 4rem;
+          label {
+            font-weight: 600;
+            padding: 10px 0px;
+            // margin-bottom: 1rem;
+            font-size: 1em;
+          }
+          input {
+            --webkit-appearance: none;
+            width: 100%;
+            max-width: 425px;
+            padding: 0.7em;
+            font-size: 0.9em;
+            outline: none;
+            border: 2px solid white;
+            border-radius: 4px;
+            background: #f9f9f9;
+            transition: background 0.25s, border-color 0.25s, color 0.25s;
+          }
+        }
+        label {
+          font-weight: 500;
+          padding: 10px 0px;
+          font-size: 1.3em;
+        }
+        textarea {
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+        }
+        textarea {
+          padding: 10px;
+          max-width: 100%;
+          line-height: 1.5;
+          border-radius: 5px;
+          border: 1px solid white;
+          box-shadow: 1px 1px 1px #999;
+        }
+        #sbtn {
+          height: 2.2rem;
+          width: 7rem;
+          background-color: black;
+          border: none;
+          outline: none;
+          border-radius: 12px;
+          cursor: pointer;
+          color: white;
+        }
+      }
     }
     img {
       height: 2.5rem;
       width: 2.5rem;
       position: absolute;
-      top: 15%;
-      left: 15%;
+      top: 10%;
+      left: 10%;
       cursor: pointer;
     }
     // .new {

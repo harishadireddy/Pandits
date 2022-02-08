@@ -6,20 +6,64 @@ body {
   .main {
     margin-left: 250px;
     // margin-top: 4.3rem;
+    // background-color: pink;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    position: relative;
 
-    .panel {
-      margin-top: 4.3rem;
-      height: 30rem;
-      width: 50rem;
-      background: #d7e3fc;
-      border-radius: 14px;
-      // border: 2px solid #f8edeb;
-      box-shadow: 0 8px 8px -4px lightblue;
+    .new {
+      // margin-top: 4.3rem;
+      height: 2rem;
+      width: 7rem;
+      cursor: pointer;
+      background: skyblue;
+      border: 1px solid black;
+      outline: none;
+      color: white;
+      font-weight: 600;
+      position: absolute;
+      left: 15.9%;
+      top: 33%;
+      color: black;
+      img {
+        height: 1rem;
+        width: 1rem;
+        position: absolute;
+        right: 0.5;
+      }
+
+      // border-radius: 10px;
+    }
+    .styled-table {
+      margin-top: 9rem;
+      border-collapse: collapse;
+      // margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      thead tr {
+        background-color: #042331;
+        color: #ffffff;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 12px 15px;
+      }
+      tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+      tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      tbody tr.active-row {
+        font-weight: bold;
+        color: #042331;
+      }
     }
   }
 }
