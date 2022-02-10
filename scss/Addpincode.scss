@@ -19,17 +19,19 @@
     width: 27rem;
     background: #d7e3fc;
     border-radius: 14px;
-    // border: 2px solid #f8edeb;
     box-shadow: 0 8px 8px -4px lightblue;
+    padding-top: 20px;
     form {
-      //   background-color: pink;
       height: auto;
       width: 25rem;
       display: flex;
       align-items: center;
+      padding: 20px;
       justify-content: center;
       flex-direction: column;
       gap: 2rem;
+
+      // input and select styles
       input,
       select {
         --webkit-appearance: none;

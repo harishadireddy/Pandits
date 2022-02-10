@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE;CACZ;;AACD,AACE,IADE,CACF,KAAK,CAAC;EACJ,WAAW,EAAE,KAAK;EAElB,OAAO,EAAE,IAAI;CACd",
-    "sources": [
-        "Caterings.scss"
-    ],
-    "names": [],
-    "file": "Caterings.css"
-}

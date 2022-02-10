@@ -53,9 +53,9 @@
                         <img src="./Images/drop.png" alt="">
                     </button>
                     <div class="dropdown-container">
-                        <a href="#">Manage Caters Types</a>
-                        <a href="#">Manage Caters</a>
-                        <a href="#">Manage Items</a>
+                        <a href="ManageCtypes.php">Manage Caters Types</a>
+                        <a href="ManageC.php">Manage Caters</a>
+                        <a href="ManageCitems.php">Manage Items</a>
 
                     </div>
                 </li>

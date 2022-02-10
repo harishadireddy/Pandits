@@ -90,13 +90,13 @@
                         <div class="item">
 
 
-                            <textarea id="story" name="story" rows="5" cols="38">
+                            <textarea id="address" name="address" rows="5" cols="38">
                                  Enter Address
                          </textarea>
                         </div>
                         <div class="item">
-                            <label for="lang" class="form__label">Image</label>
-                            <input type="file" id="myFile" name="filename">
+                            <label for="image" class="form__label">Image</label>
+                            <input type="file" id="image" name="image">
                         </div>
 
                     </div>

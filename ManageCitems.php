@@ -5,24 +5,25 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pandits</title>
-        <link rel="stylesheet" href="./scss/Cities.css">
+        <title>Catering Items</title>
+        <link rel="stylesheet" href="./scss/ManageCitems.css">
     </head>
 
     <body>
+        <?php include('NavBar.php');?>
 
-
-        <div class="main">
-
+        <section class="main">
 
             <table class="styled-table">
-                <a href="Addcities.php"><button class="new">Add New City
+                <a href="AddCitems.php"><button class="new">Add Catering Items
                         <img src="./Images/aone.png" alt="" srcset="">
                     </button></a>
                 <thead>
                     <tr>
                         <th>S.NO</th>
-                        <th>City Name</th>
+                        <th>Item Name</th>
+                        <th>Catering Type</th>
+
                         <th>
                             Actions
                         </th>
@@ -34,8 +35,11 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Vizag</td>
+                        <td>Chicken</td>
+                        <td>Non-veg</td>
+
                         <td>
+
                             <button>Edit</button>
                             <button>Delete</button>
                         </td>
@@ -45,9 +49,12 @@
 
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Vijayanagaram</td>
+                        <td>1</td>
+                        <td>Brinjal</td>
+                        <td>Veg</td>
+
                         <td>
+
                             <button>Edit</button>
                             <button>Delete</button>
                         </td>
@@ -57,25 +64,28 @@
 
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>vijayawada</td>
+                        <td>1</td>
+                        <td>Mutton</td>
+                        <td>Non-Veg</td>
                         <td>
+
                             <button>Edit</button>
                             <button>Delete</button>
                         </td>
-
-
 
 
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>Hyderabad</td>
+                        <td>1</td>
+                        <td>Fish </td>
+                        <td>Non-veg</td>
+
+
                         <td>
+
                             <button>Edit</button>
                             <button>Delete</button>
                         </td>
-
 
 
 
@@ -88,8 +98,7 @@
                     <!-- and so on... -->
                 </tbody>
             </table>
-            <!-- <div class="panel"></div> -->
-        </div>
+        </section>
     </body>
 
 </html>

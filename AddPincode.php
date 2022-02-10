@@ -21,12 +21,12 @@
 
 
                         <div>
-                            <label for="cars">Choose a City:</label><br>
-                            <select name="cars" id="cars">
-                                <option value="volvo">visakhapatnam</option>
-                                <option value="saab">vijayawada</option>
-                                <option value="opel">Tuni</option>
-                                <option value="audi">Hyderabad</option>
+                            <label for="cities">Choose a City:</label><br>
+                            <select name="cities" id="cities">
+                                <option value="visakhapatnam">visakhapatnam</option>
+                                <option value="vijayawada">vijayawada</option>
+                                <option value="Tuni">Tuni</option>
+                                <option value="Hyderabad">Hyderabad</option>
                             </select>
                         </div>
 

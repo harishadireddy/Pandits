@@ -13,7 +13,18 @@
         <?php include('NavBar.php');?>
 
         <section class="main">
-            <h1>ADD POOJA PAGE</h1>
+            <div class="content">
+                <a href="Pooja.php"><img src="./Images/bone.png" alt="" srcset=""></img></a>
+                <div class="panel">
+
+                    <label for="pooja_name" class="form__label">Pooja Name</label>
+                    <input required type="text" name="pooja_name" id="pooja_name" placeholder="Enter Pooja Name" />
+                    <label for="pooja_image" class="form__label">Pooja Image</label>
+                    <input required type="file" name="pooja_image" id="pooja_image" />
+
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
         </section>
     </body>
 
