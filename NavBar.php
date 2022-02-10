@@ -44,7 +44,7 @@
                         <img src="./Images/drop.png" alt="">
                     </button>
                     <div class="dropdown-container">
-                        <a href="#">Manage Pooja Types</a>
+                        <a href="Pooja.php">Manage Pooja Types</a>
                         <a href="Pandits.php">Manage Pandits</a>
 
                     </div>

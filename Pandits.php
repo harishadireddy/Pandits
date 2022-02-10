@@ -31,10 +31,11 @@
                 <thead>
                     <tr>
                         <th>S.NO</th>
-                        <th>User ID</th>
+                        <th>User Name</th>
                         <th>Mobile</th>
                         <th>PoojaTypes</th>
                         <th>Address</th>
+                        <th>Pincode</th>
                         <th>
                             Actions
                         </th>
@@ -44,10 +45,12 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Pandit one</td>
+                        <td>Pandit name</td>
+
                         <td>9096485504</td>
                         <td>Type1</td>
                         <td>Adress line of some n number of letters</td>
+                        <td>530017</td>
                         <td><button>View</button>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -58,10 +61,12 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Pandit one</td>
+                        <td>9096485504</td>
+
                         <td>8096495504</td>
                         <td>Type1</td>
                         <td>Adress line of some n number of letters</td>
+                        <td>530017</td>
                         <td><button>View</button>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -72,10 +77,12 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Pandit one</td>
+                        <td>9096485504</td>
+
                         <td>8096495504</td>
                         <td>Type1</td>
                         <td>Adress line of some n number of letters</td>
+                        <td>530017</td>
                         <td><button>View</button>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -86,10 +93,12 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Pandit one</td>
+                        <td>9096485504</td>
+
                         <td>9096485504</td>
                         <td>Type1</td>
                         <td>Adress line of some n number of letters</td>
+                        <td>530017</td>
                         <td><button>View</button>
                             <button>Edit</button>
                             <button>Delete</button>
