@@ -1,0 +1,110 @@
+.main {
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .back {
+  margin-top: 9rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+.content .panel {
+  height: auto;
+  width: 27rem;
+  background: #d7e3fc;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 8px 8px -4px lightblue;
+          box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.content .panel form {
+  height: auto;
+  width: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.content .panel form input,
+.content .panel form select {
+  --webkit-appearance: none;
+  width: 15rem;
+  padding: 0.7em;
+  font-size: 0.9em;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: #f9f9f9;
+  -webkit-transition: background 0.25s, border-color 0.25s, color 0.25s;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.content .panel form label {
+  padding: 20px 0px;
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.content .panel form button {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.content .panel form .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+
+.content .panel form .item i {
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.content .panel form .item .remove {
+  display: inline;
+  height: 2rem;
+  width: 2rem;
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=Addpincode.css.map */

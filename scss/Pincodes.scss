@@ -5,19 +5,16 @@
 body {
   .main {
     margin-left: 250px;
-    // margin-top: 4.3rem;
-    // background-color: pink;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-
     .new {
       margin-top: 9rem;
       height: 2rem;
-      width: 9rem;
+      width: 9.5rem;
       cursor: pointer;
       background: skyblue;
       border: 1px solid black;

@@ -23,17 +23,16 @@ body .main {
 }
 
 body .main .new {
+  margin-top: 10rem;
   height: 2rem;
-  width: 7rem;
+  width: 9rem;
   cursor: pointer;
   background: skyblue;
   border: 1px solid black;
   outline: none;
   color: white;
   font-weight: 600;
-  position: absolute;
-  left: 15.9%;
-  top: 33%;
+  float: left;
   color: black;
 }
 
@@ -45,7 +44,7 @@ body .main .new img {
 }
 
 body .main .styled-table {
-  margin-top: 9rem;
+  margin-top: 3rem;
   border-collapse: collapse;
   font-size: 0.9em;
   font-family: sans-serif;
@@ -76,5 +75,14 @@ body .main .styled-table tbody tr:nth-of-type(even) {
 body .main .styled-table tbody tr.active-row {
   font-weight: bold;
   color: #042331;
+}
+
+body .main .styled-table button {
+  width: 4rem;
+  height: 2rem;
+  background: skyblue;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Pandits.css.map */

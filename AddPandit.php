@@ -24,22 +24,22 @@
                     <div class="drop">
                         <select name="cities" id="cities">
                             <option value="" disabled selected hidden>Cities</option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
+                            <option value="volvo">Visakhapatnam</option>
+                            <option value="saab">Vijayawada</option>
+                            <option value="opel">Vizianagaram</option>
+                            <option value="audi">Hyderabad</option>
                         </select> <select name="pincode" id="pincode">
                             <option value="" disabled selected hidden>Pincode</option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
+                            <option value="volvo">533410</option>
+                            <option value="saab">500100</option>
+                            <option value="opel">500001</option>
+                            <option value="audi">500060</option>
                         </select> <select name="poojaT" id="poojaT">
                             <option value="" disabled selected hidden>Pooja Types</option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
+                            <option value="volvo">Type1</option>
+                            <option value="saab">Type 2</option>
+                            <option value="opel">Type 3</option>
+                            <option value="audi">Type 4</option>
                         </select>
                     </div>
                     <div class="details">

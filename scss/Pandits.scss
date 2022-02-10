@@ -15,18 +15,17 @@ body {
     position: relative;
 
     .new {
-      // margin-top: 4.3rem;
+      margin-top: 10rem;
       height: 2rem;
-      width: 7rem;
+      width: 9rem;
       cursor: pointer;
       background: skyblue;
       border: 1px solid black;
       outline: none;
       color: white;
       font-weight: 600;
-      position: absolute;
-      left: 15.9%;
-      top: 33%;
+      float: left;
+
       color: black;
       img {
         height: 1rem;
@@ -38,7 +37,7 @@ body {
       // border-radius: 10px;
     }
     .styled-table {
-      margin-top: 9rem;
+      margin-top: 3rem;
       border-collapse: collapse;
       // margin: 25px 0;
       font-size: 0.9em;
@@ -63,6 +62,14 @@ body {
       tbody tr.active-row {
         font-weight: bold;
         color: #042331;
+      }
+      button {
+        width: 4rem;
+        height: 2rem;
+        background: skyblue;
+        outline: none;
+        border: none;
+        cursor: pointer;
       }
     }
   }

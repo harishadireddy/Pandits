@@ -38,25 +38,36 @@
         <div class="sidebar">
             <ul>
                 <li><a href="Apanel.php">Home</a></li>
-                <li><a href="Pandits.php">Pandits</a></li>
-                <li><a href="Caterings.php">Caterings</a></li>
-                <li><a href="Pooja.php">Pooja Types</a></li>
-                <li><a href="Cities.php">Cities</a></li>
 
-                <li>
-                    <button id="dropdown" onclick="dropdown()">
-                        Catering Types
-                        <img src="Images/drop.png" alt="" />
+
+                <li> <button class="dropdown-btn">Pandits
+                        <img src="./Images/drop.png" alt="">
                     </button>
-                    <div id="dcontainer">
-                        <ul class="inner">
-                            <li><a href="#">Add caterings</a></li>
-                            <li><a href="#">Add Items</a></li>
-                        </ul>
-                        <!-- <p>Add caterings</p>
-                        <p>Add Items</p> -->
+                    <div class="dropdown-container">
+                        <a href="#">Manage Pooja Types</a>
+                        <a href="Pandits.php">Manage Pandits</a>
+
                     </div>
                 </li>
+                <li><button class="dropdown-btn">Caters
+                        <img src="./Images/drop.png" alt="">
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">Manage Caters Types</a>
+                        <a href="#">Manage Caters</a>
+                        <a href="#">Manage Items</a>
+
+                    </div>
+                </li>
+                <li><button class="dropdown-btn">Pincodes
+                        <img src="./Images/drop.png" alt="">
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="Cities.php">Manage Cites</a>
+                        <a href="Pincodes.php">Manage Pincodes</a>
+
+                    </div>
+
 
             </ul>
         </div>

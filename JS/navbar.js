@@ -10,19 +10,22 @@ function openForm() {
 
 function closeForm() {
   console.log("function");
+  console.log("Working");
   document.getElementById("popup").style.display = "none";
 }
 
-function dropdown() {
-  var x = document.getElementById("dcontainer");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    var tween = gsap.from("#dcontainer", {
-      duration: 0.3,
-      opacity: 0,
-      y: -20,
-    });
-  } else {
-    x.style.display = "none";
-  }
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    console.log("Working");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
 }

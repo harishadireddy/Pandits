@@ -25,7 +25,7 @@ body .main {
 body .main .new {
   margin-top: 9rem;
   height: 2rem;
-  width: 9rem;
+  width: 9.5rem;
   cursor: pointer;
   background: skyblue;
   border: 1px solid black;
@@ -84,4 +84,4 @@ body .main .styled-table button {
   border: none;
   cursor: pointer;
 }
-/*# sourceMappingURL=Cities.css.map */
+/*# sourceMappingURL=Pincodes.css.map */

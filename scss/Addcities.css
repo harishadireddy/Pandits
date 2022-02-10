@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body .main {
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .main .content img {
+  margin-top: 9rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+body .main .content .panel {
+  height: 12rem;
+  width: 20rem;
+  background: #d7e3fc;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 8px 8px -4px lightblue;
+          box-shadow: 0 8px 8px -4px lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main .content .panel button {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 12px;
+}
+
+body .main .content .panel input {
+  --webkit-appearance: none;
+  width: 15rem;
+  padding: 0.7em;
+  font-size: 0.9em;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: #f9f9f9;
+  -webkit-transition: background 0.25s, border-color 0.25s, color 0.25s;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+body .main .content .panel label {
+  font-weight: 500;
+  padding: 10px 0px;
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=Addcities.css.map */

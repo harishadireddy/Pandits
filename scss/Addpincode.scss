@@ -1,0 +1,91 @@
+.main {
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  .back {
+    margin-top: 9rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    // position: absolute;
+
+    cursor: pointer;
+  }
+  .panel {
+    height: auto;
+    width: 27rem;
+    background: #d7e3fc;
+    border-radius: 14px;
+    // border: 2px solid #f8edeb;
+    box-shadow: 0 8px 8px -4px lightblue;
+    form {
+      //   background-color: pink;
+      height: auto;
+      width: 25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2rem;
+      input,
+      select {
+        --webkit-appearance: none;
+        width: 15rem;
+        // max-width: 425px;
+        padding: 0.7em;
+        font-size: 0.9em;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 4px;
+        background: #f9f9f9;
+        transition: background 0.25s, border-color 0.25s, color 0.25s;
+      }
+
+      label {
+        // font-weight: 500;
+        padding: 20px 0px;
+        margin-top: 20px;
+        font-size: 1.3em;
+      }
+      button {
+        margin-top: 1rem;
+        width: 5rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: black;
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 12px;
+      }
+      .item {
+        // position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+        i {
+          //   background-color: pink;
+          //   position: fixed;
+          //   top: 10%;
+
+          cursor: pointer;
+          margin-left: 12px;
+        }
+        .remove {
+          display: inline;
+          height: 2rem;
+          width: 2rem;
+          //   position: fixed;
+
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Button used to open the contact form - fixed at the bottom of the page */
+      .open-button {
+        background-color: #555;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        width: 280px;
+      }
+
+      /* The popup form - hidden by default */
+      .form-popup {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+      }
+
+      /* Add styles to the form container */
+      .form-container {
+        max-width: 300px;
+        padding: 10px;
+        background-color: white;
+      }
+
+      /* Full-width input fields */
+      .form-container input[type="text"],
+      .form-container input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      /* When the inputs get focus, do something */
+      .form-container input[type="text"]:focus,
+      .form-container input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      /* Set a style for the submit/login button */
+      .form-container .btn {
+        background-color: #04aa6d;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+      }
+
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: red;
+      }
+
+      /* Add some hover effects to buttons */
+      .form-container .btn:hover,
+      .open-button:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Popup Form</h2>
+    <p>
+      Click on the button at the bottom of this page to open the login form.
+    </p>
+    <p>
+      Note that the button and the form is fixed - they will always be
+      positioned to the bottom of the browser window.
+    </p>
+
+    <button class="open-button" onclick="openForm()">Open Form</button>
+
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+    </div>
+
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  .nav {
+    height: 4.3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    z-index: 1;
+    background: white;
+    box-shadow: 0 7px 6px -8px #777;
+    position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    h2 {
+      position: absolute;
+      left: 45%;
+    }
+    img {
+      height: 2.3rem;
+      width: 2.3rem;
+      margin-right: 1.5rem;
+      cursor: pointer;
+    }
+    .logo {
+      height: 3.5rem;
+      width: 3.5rem;
+      position: absolute;
+      left: 2rem;
+    }
+  }
+
+  .popup {
+    display: none;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    height: 32rem;
+    width: 40rem;
+    background: white;
+    border-radius: 12px;
+    float: right;
+    border: solid 1px black;
+    z-index: 2;
+    position: fixed;
+    right: 0;
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      outline: none;
+      border: solid 2px black;
+      background: white;
+      border-radius: 12px;
+      padding: 3px;
+      cursor: pointer;
+    }
+    .sbtn {
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      // background-color: black;
+      img {
+        height: 9rem;
+        width: 9rem;
+      }
+      #phone,
+      #email,
+      #password {
+        border: none;
+        outline: none;
+        border-bottom: 2px solid black;
+        padding: 10px;
+        font-size: 1rem;
+        // border-radius: 10px;
+        width: 70%;
+        background-color: white;
+      }
+      .formitem {
+        padding: 3px;
+
+        input {
+          border: none;
+          outline: none;
+          border-bottom: 2px solid black;
+          padding: 10px;
+          font-size: 1rem;
+          background-color: white;
+          // border-radius: 10px;
+        }
+      }
+      .sbtn {
+        outline: none;
+        width: 6rem;
+        height: 2rem;
+        border: 2px solid black;
+        border-radius: 12px;
+        background-color: white;
+      }
+    }
+  }
+
+  .sidebar {
+    position: fixed;
+    // left: -250px;
+    margin-top: 4.3rem;
+    width: 250px;
+    height: 100%;
+    overflow: none;
+    z-index: 1;
+    background: #042331;
+    // button
+    #dropdown {
+      background: #042331;
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 64px;
+      font-size: 19px;
+      color: white;
+      cursor: pointer;
+
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      transition: 0.4s;
+      text-decoration: none;
+      border-left: none;
+      position: relative;
+      img {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 12px;
+        top: 35%;
+      }
+    }
+    #dcontainer {
+      ul a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: white;
+        padding-left: 40px;
+        box-sizing: border-box;
+        border-bottom: 1px solid black;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        transition: 0.4s;
+        text-decoration: none;
+        background: #095c83;
+      }
+      ul li:hover a {
+        padding-left: 50px;
+      }
+    }
+    ul a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 65px;
+      font-size: 20px;
+      color: white;
+      padding-left: 40px;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      transition: 0.4s;
+      text-decoration: none;
+    }
+    ul li:hover a {
+      padding-left: 50px;
+    }
+    #dcontainer {
+      display: none;
+    }
+    #dcontainer2 {
+      display: none;
+    }
+    #dcontainer3 {
+      display: none;
+    }
+  }
+}
+
+ </li>
+
+                <li>
+                    <button id="dropdown" onclick="dropdown()">
+                        Pandits
+                        <img src="Images/drop.png" alt="" />
+                    </button>
+                    <div id="dcontainer">
+                        <ul class="inner">
+                            <li><a href="#"> Manage pooja Types</a></li>
+                            <li><a href="Pandits.php">Manage Pandits</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li>
+                    <button id="dropdown" onclick="dropdown2()">
+                        Caters
+                        <img src="Images/drop.png" alt="" />
+                    </button>
+                    <div id="dcontainer2" class="caters">
+                        <ul class="inner">
+                            <li><a href="#">Add caterings</a></li>
+                            <li><a href="#">Add Items</a></li>
+                        </ul>
+                        <!-- <p>Add caterings</p>
+                        <p>Add Items</p> -->
+                    </div>
+                </li>
+                <li>
+                    <button id="dropdown" onclick="dropdown3()">
+                        Pincodes
+                        <img src="Images/drop.png" alt="" />
+                    </button>
+                    <div id="dcontainer3" class="pincode">
+                        <ul class="inner">
+                            <li><a href="#">Add Cities</a></li>
+                            <li><a href="#">Add Pincodes</a></li>
+                        </ul>
+                        <!-- <p>Add caterings</p>
+                        <p>Add Items</p> -->
+                    </div>
+                </li>

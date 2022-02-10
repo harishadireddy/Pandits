@@ -124,22 +124,32 @@ body {
     z-index: 1;
     background: #042331;
     // button
-    #dropdown {
-      background: #042331;
-      display: block;
-      height: 100%;
-      width: 100%;
-      line-height: 64px;
-      font-size: 19px;
-      color: white;
-      cursor: pointer;
-
-      border-bottom: 1px solid black;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      transition: 0.4s;
+    .dropdown-container {
+      display: none;
+      background-color: #262626;
+      padding-left: 8px;
+      a :hover {
+        padding-left: 50px;
+      }
+    }
+    .dropdown-btn {
+      padding: 6px 8px 6px 16px;
       text-decoration: none;
-      border-left: none;
+      font-size: 20px;
+      color: #818181;
+      line-height: 55px;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
       position: relative;
+      outline: none;
+      background: #042331;
+      border-bottom: 1px solid black;
+      color: white;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
       img {
         height: 20px;
         width: 20px;
@@ -148,26 +158,11 @@ body {
         top: 35%;
       }
     }
-    #dcontainer {
-      ul a {
-        display: block;
-        height: 100%;
-        width: 100%;
-        line-height: 65px;
-        font-size: 20px;
-        color: white;
-        padding-left: 40px;
-        box-sizing: border-box;
-        border-bottom: 1px solid black;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        transition: 0.4s;
-        text-decoration: none;
-        background: #095c83;
-      }
-      ul li:hover a {
-        padding-left: 50px;
-      }
+    .active {
+      background-color: skyblue;
+      color: white;
     }
+
     ul a {
       display: block;
       height: 100%;
@@ -184,9 +179,6 @@ body {
     }
     ul li:hover a {
       padding-left: 50px;
-    }
-    #dcontainer {
-      display: none;
     }
   }
 }

@@ -145,25 +145,37 @@ body .sidebar {
   background: #042331;
 }
 
-body .sidebar #dropdown {
-  background: #042331;
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 64px;
-  font-size: 19px;
-  color: white;
-  cursor: pointer;
-  border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  text-decoration: none;
-  border-left: none;
-  position: relative;
+body .sidebar .dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
 }
 
-body .sidebar #dropdown img {
+body .sidebar .dropdown-container a :hover {
+  padding-left: 50px;
+}
+
+body .sidebar .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  line-height: 55px;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: #042331;
+  border-bottom: 1px solid black;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body .sidebar .dropdown-btn img {
   height: 20px;
   width: 20px;
   position: absolute;
@@ -171,26 +183,9 @@ body .sidebar #dropdown img {
   top: 35%;
 }
 
-body .sidebar #dcontainer ul a {
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 65px;
-  font-size: 20px;
+body .sidebar .active {
+  background-color: skyblue;
   color: white;
-  padding-left: 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  text-decoration: none;
-  background: #095c83;
-}
-
-body .sidebar #dcontainer ul li:hover a {
-  padding-left: 50px;
 }
 
 body .sidebar ul a {
@@ -212,9 +207,5 @@ body .sidebar ul a {
 
 body .sidebar ul li:hover a {
   padding-left: 50px;
-}
-
-body .sidebar #dcontainer {
-  display: none;
 }
 /*# sourceMappingURL=navbar.css.map */
