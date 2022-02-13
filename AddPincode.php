@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Add Pincodes</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/5b6117750f.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/5b6117750f.js" crossorigin="anonymous"></script>s
         <link rel="stylesheet" href="./scss/Addpincode.css">
     </head>
 

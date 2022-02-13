@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  .main {
+    margin-left: 250px;
+    // margin-top: 4.3rem;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+    // padding: 20px;
+    position: relative;
+    .panel {
+      margin-top: 9rem;
+      height: auto;
+      width: 90%;
+      background: #d7e3fc;
+      border-radius: 14px;
+      align-items: center;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      // border: 2px solid #f8edeb;
+      box-shadow: 0 8px 8px -4px lightblue;
+      #submit {
+        background: black;
+        color: white;
+        border: none;
+        outline: none;
+        margin-top: 2rem;
+        width: 5.5rem;
+        height: 2.2rem;
+        border-radius: 12px;
+        cursor: pointer;
+        margin-bottom: 2rem;
+      }
+      .gridl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        // height: 5rem;
+        // background: pink;
+        // align-items: center;
+
+        justify-content: center;
+        #plus,
+        #delete {
+          cursor: pointer;
+        }
+        select {
+          --webkit-appearance: none;
+          width: 15rem;
+          // max-width: 425px;
+          padding: 0.7em;
+          font-size: 0.9em;
+          outline: none;
+          border: 2px solid white;
+          border-radius: 4px;
+          background: #f9f9f9;
+          margin-left: 1rem;
+          margin-top: 2rem;
+          transition: background 0.25s, border-color 0.25s, color 0.25s;
+        }
+        .flexcontent {
+          // background-color: green;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          // gap: 10px;
+          justify-content: center;
+        }
+        // to align select drop down and button ia gave used anither class with felx box
+      }
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 1.5rem;
+        // background: green;
+        grid-column-gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        width: 45rem;
+        label {
+          font-weight: 600;
+          padding: 10px 0px;
+          // margin-bottom: 1rem;
+          font-size: 1em;
+        }
+        input {
+          --webkit-appearance: none;
+          width: 100%;
+          max-width: 425px;
+          padding: 0.7em;
+          font-size: 0.9em;
+          outline: none;
+          border: 2px solid white;
+          border-radius: 4px;
+          background: #f9f9f9;
+          transition: background 0.25s, border-color 0.25s, color 0.25s;
+        }
+      }
+      .additem {
+        // height: 5rem;
+        // width: 100%;
+        // background-color: pink;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        // grid-row-gap: 1rem;
+        grid-column-gap: 1rem;
+        margin-top: 1rem;
+        // gap: 1rem;
+
+        label {
+          font-weight: 600;
+          padding: 10px 0px;
+          // margin-bottom: 1rem;
+          font-size: 1em;
+        }
+        input,
+        select {
+          --webkit-appearance: none;
+          width: 100%;
+          max-width: 425px;
+          // width: 0.7rem;
+          height: 2.7rem;
+          // padding: 0.4em;
+          font-size: 0.9em;
+          outline: none;
+          border: 2px solid white;
+          border-radius: 4px;
+          background: #f9f9f9;
+          transition: background 0.25s, border-color 0.25s, color 0.25s;
+        }
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@
         <section class="main">
 
             <table class="styled-table">
-                <a href="Addcaterings.php"><button class="new">Add Caterings
+                <a href="AddCaters.php"><button class="new">Add Caterings
                         <img src="./Images/aone.png" alt="" srcset="">
                     </button></a>
                 <thead>

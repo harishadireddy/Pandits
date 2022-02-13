@@ -12,13 +12,13 @@
     <body>
         <?php include('NavBar.php');?>
         <div class="main">
-            <a href="Pandits.php"><img src="./Images/bone.png" alt="" srcset=""></img></a>
+
 
 
 
 
             <div class="panel">
-
+                <a href="Pandits.php"><img src="./Images/bone.png" alt="" srcset=""></img></a>
                 <form action="./">
                     <h1>Add Pandit</h1>
                     <div class="drop">
