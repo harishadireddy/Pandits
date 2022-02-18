@@ -11,6 +11,7 @@
 
     <body>
 
+        <?php include('NavBar.php');?>
 
         <div class="main">
 

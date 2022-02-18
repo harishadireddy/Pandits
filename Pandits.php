@@ -31,7 +31,7 @@
                 <thead>
                     <tr>
                         <th>S.NO</th>
-                        <th>User Name</th>
+                        <th> Name</th>
                         <th>Mobile</th>
                         <th>PoojaTypes</th>
                         <th>Address</th>
@@ -45,7 +45,7 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Pandit name</td>
+                        <td>Dinesh</td>
 
                         <td>9096485504</td>
                         <td>Type1</td>
@@ -60,8 +60,8 @@
 
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>9096485504</td>
+                        <td>2</td>
+                        <td>Sravan</td>
 
                         <td>8096495504</td>
                         <td>Type1</td>
@@ -76,8 +76,8 @@
 
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>9096485504</td>
+                        <td>3</td>
+                        <td>Harish</td>
 
                         <td>8096495504</td>
                         <td>Type1</td>
@@ -92,8 +92,8 @@
 
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>9096485504</td>
+                        <td>4</td>
+                        <td>Sai kumar</td>
 
                         <td>9096485504</td>
                         <td>Type1</td>

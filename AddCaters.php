@@ -29,13 +29,17 @@
                             </select>
                         </div>
                         <div class="item">
-                            <select name="pincodes" id="pincodes">
-                                <option value="" disabled selected hidden>Pincodes</option>
-                                <option value="530045">530045</option>
-                                <option value="530041">530041</option>
-                                <option value="530014">530014</option>
-                                <option value="530012">530012</option>
-                            </select>
+                            <div class="pincontent">
+                                <select name="pincodes" id="pincodes">
+                                    <option value="" disabled selected hidden>Pincodes</option>
+                                    <option value="530045">530045</option>
+                                    <option value="530041">530041</option>
+                                    <option value="530014">530014</option>
+                                    <option value="530012">530012</option>
+                                </select>
+                                <i class="fa-solid fa-circle-plus fa-2xl" id='pin'></i>
+                            </div>
+
                         </div>
                         <div class="item">
                             <div class="flexcontent">
@@ -88,10 +92,10 @@
                                 <label for="Name" class="form__label">Add Item</label>
                                 <select name="pincodes" id="pincodes">
 
-                                    <option value="530045">530045</option>
-                                    <option value="530041">530041</option>
-                                    <option value="530014">530014</option>
-                                    <option value="530012">530012</option>
+                                    <option value="Pappu">Pappu</option>
+                                    <option value="Chicken">Chicken</option>
+                                    <option value="Sambar">Sambar</option>
+                                    <option value="Fish">Fish</option>
                                 </select>
                             </div>
                             <div class="item">

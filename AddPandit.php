@@ -43,10 +43,7 @@
                         </select>
                     </div>
                     <div class="details">
-                        <div class="item">
-                            <label for="userid" class="form__label">UserID</label>
-                            <input required type="text" name="userid" id="userid" placeholder="Enter UserID" />
-                        </div>
+
                         <div class="item">
                             <label for="Name" class="form__label">Username</label>
                             <input required type="text" name="Name" id="Name" placeholder="Enter Name" />
@@ -67,6 +64,11 @@
                             <label for="Experience" class="form__label">Experience</label>
                             <input required type="text" name="Experience" id="Experience"
                                 placeholder="Enter Experience" />
+                        </div>
+                        <div class="item">
+                            <label for="panditcost" class="form__label">PanditCost</label>
+                            <input required type="text" name="panditcost" id="panditcost"
+                                placeholder="Enter Pandit Cost" />
                         </div>
                         <div class="item">
                             <label for="PoojaCost" class="form__label">Pooja Cost</label>

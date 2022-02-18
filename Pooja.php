@@ -19,7 +19,7 @@
                 <thead>
                     <tr>
                         <th>S.NO</th>
-                        <th>City Name</th>
+                        <th>Pooja Name</th>
                         <th>Pooja image</th>
                         <th>
                             Actions
@@ -32,8 +32,8 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Vizag</td>
-                        <td>image</td>
+                        <td>Pooja1</td>
+                        <td><img src="./Images/homam.png" alt="pooja" srcset="" height="130px" width="200px"></td>
                         <td>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -45,8 +45,8 @@
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Vijayanagaram</td>
-                        <td>image</td>
+                        <td>Pooja 2</td>
+                        <td><img src="./Images/pooja.jpg" alt="pooja" srcset="" height="130px" width="200px"></td>
 
                         <td>
                             <button>Edit</button>
@@ -59,8 +59,8 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>vijayawada</td>
-                        <td>image</td>
+                        <td>Pooja 3</td>
+                        <td><img src="./Images/homam.png" alt="pooja" srcset="" height="130px" width="200px"></td>
 
                         <td>
                             <button>Edit</button>
@@ -73,8 +73,8 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Hyderabad</td>
-                        <td>image</td>
+                        <td>Pooja 4</td>
+                        <td><img src="./Images/pooja.jpg" alt="pooja" srcset="" height="130px" width="200px"></td>
 
                         <td>
                             <button>Edit</button>

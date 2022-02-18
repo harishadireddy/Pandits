@@ -72,7 +72,9 @@ body .main .panel .gridl {
 }
 
 body .main .panel .gridl #plus,
-body .main .panel .gridl #delete {
+body .main .panel .gridl #delete,
+body .main .panel .gridl #pin,
+body .main .panel .gridl #unpin {
   cursor: pointer;
 }
 

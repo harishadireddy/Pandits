@@ -15,6 +15,14 @@ $(document).ready(function () {
     $(".grid3").append(block);
   });
 
+  $("#pin").click(function () {
+    // console.log("what the hell");
+
+    var pincode =
+      '<div class="ctypes" id="pincodes2"><select name="pincodes" id="pincodes"> <option value="" disabled selected hidden>Pincodes</option><option value="530045">530045</option> <option value="530041">530041</option><option value="530014">530014</option>   <option value="530012">530012</option></select><i class="fa-solid fa-circle-xmark fa-2xl" id="unpin"></i> </div>';
+    $(".pincontent").append(pincode);
+  });
+
   // $("#delete").click(function (e) {
   //   // console.log(e);
   //   var variants = $(this).closest("#second");
@@ -22,6 +30,11 @@ $(document).ready(function () {
   // });
   $("body").on("click", "#delete", function () {
     var variants = $(this).closest("#two");
+    console.log(variants);
+    $(variants).remove();
+  });
+  $("body").on("click", "#unpin", function () {
+    var variants = $(this).closest("#pincodes2");
     console.log(variants);
     $(variants).remove();
   });

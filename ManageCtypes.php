@@ -34,7 +34,7 @@
                     <tr>
                         <td>1</td>
                         <td>Vegetarian</td>
-                        <td>Image</td>
+                        <td><img src="./Images/veg.jpg" alt="veg" srcset="" height="130px" width="200px"></td>
                         <td>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -47,7 +47,7 @@
                     <tr>
                         <td>2</td>
                         <td>Non-Vegitarian</td>
-                        <td>Image</td>
+                        <td><img src="./Images/nonveg.jpg" alt="non-veg" srcset="" height="130px" width="200px"></td>
                         <td>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -60,7 +60,7 @@
                     <tr>
                         <td>3</td>
                         <td>Baverages</td>
-                        <td>Image</td>
+                        <td><img src="./Images/drinks.jpg" alt="drinks" srcset="" height="130px" width="200px"></td>
                         <td>
                             <button>Edit</button>
                             <button>Delete</button>
@@ -73,7 +73,7 @@
                     <tr>
                         <td>4</td>
                         <td>Shamiyana</td>
-                        <td>Image </td>
+                        <td><img src="./Images/chair.jpg" alt="pooja" srcset="" height="130px" width="200px"> </td>
                         <td>
                             <button>Edit</button>
                             <button>Delete</button>
